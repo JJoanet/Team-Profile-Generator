@@ -1,26 +1,27 @@
 {
-  "name": "Team-Profile-Generator",
+  "name": "10-Team-Profile-Generator",
   "version": "1.0.0",
-  "description": "Creates an HTML page with the team you add in dynamically",
+  "description": "NUBC HW 10",
   "main": "index.js",
   "directories": {
     "lib": "lib",
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "start": "inquirer"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Vygoth/Team-Profile-Generator.git"
+    "url": "git+https://github.com/MattReisdorf/10-Team-Profile-Generator.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Vygoth/Team-Profile-Generator/issues"
+    "url": "https://github.com/MattReisdorf/10-Team-Profile-Generator/issues"
   },
-  "homepage": "https://github.com/Vygoth/Team-Profile-Generator#readme",
+  "homepage": "https://github.com/MattReisdorf/10-Team-Profile-Generator#readme",
   "dependencies": {
     "inquirer": "^8.0.0",
     "jest": "^26.6.3"
