@@ -4,13 +4,13 @@ describe('Engineer', () => {
     describe('Create', () => {
         it('Should create a add Engineer role and github username', () => {
             
-            const result = new Engineer.Engineer("Matt Reisdorf", "01", "mreisdorf9717@gmail.com", "MReisdorf", "Engineer");
+            const result = new Engineer.Engineer("John Doe", "01", "JDoe@gmail.com", "JDoe", "Engineer");
 
             expect(result).toEqual({
-                employeeName: "Matt Reisdorf", 
+                employeeName: "John Doe", 
                 id: "01",
-                email: "mreisdorf9717@gmail.com",
-                githubRepo: "MReisdorf",
+                email: "JDoe@gmail.com",
+                githubRepo: "JDoe",
                 role: "Engineer"
             });
         });
