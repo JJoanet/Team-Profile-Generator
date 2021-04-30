@@ -4,12 +4,12 @@ describe('Manager', () => {
     describe('Create', () => {
         it('Should create a add Manager role and github username', () => {
             
-            const result = new Manager.Manager("Matt Reisdorf", "01", "mreisdorf9717@gmail.com", "42069", "Manager");
+            const result = new Manager.Manager("John Doe", "01", "JDoe@gmail.com", "42069", "Manager");
 
             expect(result).toEqual({
-                employeeName: "Matt Reisdorf", 
+                employeeName: "John Doe", 
                 id: "01",
-                email: "mreisdorf9717@gmail.com",
+                email: "JDoe@gmail.com",
                 number: "42069",
                 role: "Manager"
             });
