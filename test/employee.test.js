@@ -4,9 +4,9 @@ describe('Employee', () => {
     describe('Create', () => {
         it('Should create a new Employee', () => {
 
-            const result = new Employee("Matt Reisdorf","01","mreisdorf9717@gmail.com");
+            const result = new Employee("John Doe","01","JDoe@gmail.com");
             
-            expect(result).toEqual({employeeName: 'Matt Reisdorf', id: '01', email: 'mreisdorf9717@gmail.com'});
+            expect(result).toEqual({employeeName: 'John Doe', id: '01', email: 'JDoe@gmail.com'});
         });
     });
 });
