@@ -15,9 +15,6 @@ This application will allow users to create a page with the name, job title, and
 - [Installation](#Dependancies)
 - [Testing](#Testing)
 - [Credits](#Credits)
-- [License](#License)
-- [Contributing](#Contributing)
-- [License Information](#LicenseInfo)
 - [Screenshot](#Screenshot)
 
 ## Usage
